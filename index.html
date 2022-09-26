@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CedarXeros</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header id="navbar">
+        <h2 class="animate__animated animate__fadeInUp">Cedar<span>Xeros</span></h2>
+        <nav class="animate__animated animate__fadeInRight">
+            <ul>
+            <li>Home</li>
+            <li>Pricing</li>
+            <li>Contact</li>
+            <li>Services</li>
+        </ul>
+    </nav>
+   <div id="icon"> <i onclick="clicker()" class="fa-solid fa-bars"></i></div>
+   <div id="icon2"><i onclick="cancel()" class="fa-solid fa-x"></i></div>
+    </header>
+    <div id="unhide">
+        
+            <ul>
+                <li>Home</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+                <li>Services</li>
+            </ul>
+        
+    </div>
+    
+    <div id="parent" class="animate__animated animate__slideInLeft">
+        <div id="output">
+            <h2 style="text-align: center;">Your details</h2>
+        </div>
+    <div id="box">
+        <fieldset>
+            <legend>Sign Up To Continue</legend>
+    <form action=""  id="form">
+        <label for="">Name<input type="text" id="input1" placeholder="Enter Your Name" name="Name"  required></label>
+        <label for="">Email<input type="email" id="input2" name="email" placeholder="Enter Your Email" required></label>
+        <label for="">Password<input type="password" id="input3" min="8" max="12" name="password" placeholder="Enter Your Password" required></label>
+        <input type="submit" id="input4" value="Sign Up">
+    </form>
+        </fieldset>
+     
+    
+    
+    </div>
+   
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
